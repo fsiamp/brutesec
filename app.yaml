@@ -1,0 +1,14 @@
+application: brutesec-data
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /(.*\.(gif|png|jpg|ico|js|css|lua|pdf|zip|txt|rar))
+  static_files: \1
+  upload: (.*\.(gif|png|jpg|ico|js|css|lua|pdf|zip|txt|rar))
+
+- url: /
+  script: index.html
+  
+
