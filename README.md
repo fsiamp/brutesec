@@ -1,5 +1,3 @@
-# BRUTEsec
-
 ![alt tag](https://raw.githubusercontent.com/fsiamp/brutesec/main/images/brutesec.png)
 
 
